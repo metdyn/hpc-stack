@@ -241,7 +241,7 @@ function build_lib() {
 }
 
 function parse_yaml {
-  set +x
+  set -x
   local yamlprefix=$2
   local s='[[:space:]]*' w='[a-zA-Z0-9_]*' fs=$(echo @|tr @ '\034')
   sed -ne "s|^\($s\):|\1|" \
