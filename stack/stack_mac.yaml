@@ -66,7 +66,7 @@ nco:
   version: 5.0.6
 
 cdo:
-  build: NO # YES
+  build: NO
   version: 1.9.8
 
 pio:
@@ -96,107 +96,107 @@ bacio:
   is_nceplib: YES
 
 sigio:
-  build: NO #YES
+  build: NO
   version: v2.3.2
   install_as: 2.3.2
   is_nceplib: YES
 
 sfcio:
-  build: NO # YES
+  build: NO
   version: v1.4.1
   install_as: 1.4.1
   is_nceplib: YES
 
 gfsio:
-  build: NO # YES
+  build: NO
   version: v1.4.1
   install_as: 1.4.1
   is_nceplib: YES
 
 w3nco:
-  build: NO # YES
+  build: NO
   version: v2.4.1
   install_as: 2.4.1
   is_nceplib: YES
 
 sp:
-  build: NO #  YES
+  build: NO
   version: v2.3.3
   install_as: 2.3.3
   openmp: ON
   is_nceplib: YES
 
 ip:
-  build: NO  # YES
+  build: NO
   version: v3.3.3
   install_as: 3.3.3
   openmp: ON
   is_nceplib: YES
 
 ip2:
-  build: NO # YES
+  build: NO
   version: v1.1.2
   install_as: 1.1.2
   openmp: ON
   is_nceplib: YES
 
 landsfcutil:
-  build: NO # YES
+  build: NO
   version: v2.4.1
   install_as: 2.4.1
   is_nceplib: YES
 
 nemsio:
-  build: NO # YES
+  build: NO
   version: v2.5.4
   install_as: 2.5.4
   is_nceplib: YES
 
 nemsiogfs:
-  build: NO # YES
+  build: NO
   version: v2.5.3
   install_as: 2.5.3
   is_nceplib: YES
 
 w3emc:
-  build: NO # YES
+  build: NO
   version: v2.9.2
   install_as: 2.9.2
   is_nceplib: YES
 
 g2:
-  build: NO # YES
+  build: NO
   version: v3.4.5
   install_as: 3.4.5
   is_nceplib: YES
 
 g2c:
-  build: NO # YES
+  build: NO
   version: v1.6.4
   install_as: 1.6.4
   is_nceplib: YES
 
 g2tmpl:
-  build: NO # YES
+  build: NO
   version: v1.10.0
   install_as: 1.10.0
   is_nceplib: YES
 
 crtm:
-  build: YES
+  build: NO
   version: v2.3.0
   install_as: 2.3.0
   is_nceplib: YES
   install_fix: NO
 
 upp:
-  build: NO # YES
+  build: NO
   version: upp_v10.0.9
   install_as: 10.0.9
   openmp: ON
 
 wrf_io:
-  build: NO # YES
+  build: NO
   version: v1.2.0
   install_as: 1.2.0
   openmp: ON
@@ -210,33 +210,33 @@ bufr:
   is_nceplib: YES
 
 wgrib2:
-  build: NO #  YES
+  build: NO
   version: 2.0.8
   install_as: 2.0.8
   lib: YES
   ipolates: 3
 
 prod_util:
-  build: NO #  YES
+  build: NO
   version: v1.2.2
   install_as: 1.2.2
   is_nceplib: YES
 
 grib_util:
-  build: NO #  YES
+  build: NO
   version: v1.2.4
   install_as: 1.2.4
   openmp: ON
   is_nceplib: YES
 
 ncio:
-  build: NO # YES
+  build: NO
   version: v1.1.0
   install_as: 1.1.0
   is_nceplib: YES
 
 ncdiag:
-  build: NO # YES
+  build: NO
   version: v1.0.0
   install_as: 1.0.0
   is_nceplib: YES
@@ -267,7 +267,7 @@ tau2:
   version: 3.25.1
 
 cgal:
-  build: YES  # NO
+  build: YES
   version: 5.0.2
 
 json:
@@ -275,7 +275,7 @@ json:
   version: 3.9.1
 
 json_schema_validator:
-  build: NO # YES
+  build: NO
   version: 2.1.0
 
 pybind11:
@@ -303,50 +303,50 @@ atlas:
   repo: ecmwf
 
 madis:
-  build: NO # YES
+  build: NO
   version: 4.3
   STACK_madis_FFLAGS=" -fallow-argument-mismatch -fallow-invalid-boz"
 
 esma_cmake:
-  build: NO # YES
+  build: NO
   repo: GEOS-ESM
   version: v3.12.0
 
 cmakemodules:
-  build: NO # YES
+  build: NO
   repo: NOAA-EMC
   version: v1.2.0
 
 gftl_shared:
-  build: NO # YES
+  build: NO
   repo: Goddard-Fortran-Ecosystem
   version: v1.5.0
 
 yafyaml:
-  build: NO # YES
+  build: NO
   repo: Goddard-Fortran-Ecosystem
   version: v0.5.1
 
 mapl:
-  build: NO # YES
+  build: NO
   repo: GEOS-ESM
   version: v2.22.0
   esmf_version: 8.2.0
 
 geos:
-  build: NO # 
+  build: NO
   version: 3.8.1
 
 libtiff:
-  build: NO # YES
+  build: NO
   version: 4.0.3
 
 sqlite:
-  build: NO # YES
+  build: NO
   version: 3.32.3
 
 proj:
-  build: NO # YES
+  build: NO
   version: 7.1.0
   cmake_opts: "-DENABLE_CURL=OFF -DBUILD_PROJSYNC=OFF"
 
