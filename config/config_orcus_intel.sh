@@ -18,16 +18,24 @@ export DOWNLOAD_ONLY=N
 export STACK_EXIT_ON_FAIL=Y
 export WGET="wget -nv"
 
-module purge
-module load intel/2022.2.0 
-module load mpich/4.0.2
-module load cmake/3.17.3
-				     
+
 # Build FMS with AVX2 flags
 export STACK_fms_CFLAGS="-march=core-avx2"
 export STACK_fms_FFLAGS="-march=core-avx2"
+# on mac gcc 11
+#export STACK_pio_FFLAGS="-fallow-argument-mismatch -fallow-invalid-boz"
 
 
+
+#module purge
+#module load intel/2022.2.0 
+#module load mpich/4.0.2
+#module load cmake/3.17.3
+
+
+# module reset
+# module unload netcdf
+# module add  cmake/3.17.3     intel/2022.2.0   mpich/4.0.2 
 
 #exit
 #
