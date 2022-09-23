@@ -3,7 +3,7 @@
 # Compiler/MPI combination
 export HPC_COMPILER="intel/2022.2.0"
 export HPC_MPI="mpich/4.0.2"
-export HPC_PYTHON="python/dummy"
+export HPC_PYTHON="python/3.6"
 
 # Build options
 export USE_SUDO=N

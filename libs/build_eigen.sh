@@ -10,6 +10,7 @@ if $MODULES; then
   source $MODULESHOME/init/bash
   module load hpc-$HPC_COMPILER
   module try-load boost-headers
+  module try-load cmake     #b.c. orcus shows: CMake Error: Parse error in cache file : module load nvhpc
   module list
   set -x
 

@@ -16,8 +16,7 @@ ml av
 
 # s1. orcus
 ./setup_modules.sh  -p /users/yonggangyu/tools/hpc-stack -c config/config_orcus_intel.sh
-
-./build_stack.sh  -p /users/yonggangyu/tools/hpc-stack -c config/config_orcus_intel.sh -y stack/stack_orcus_intel.yaml
+./build_stack.sh  -p /users/yonggangyu/tools/hpc-stack -c config/config_orcus_intel.sh -y stack/stack_orcus_intel.yaml -m
 
 # s2  Mac
 ./setup_modules.sh  -p /Users/yonggangyu/tools/hpc-stack -c config/config_mac.sh
