@@ -1,16 +1,17 @@
 #!/bin/bash
 
 # Compiler/MPI combination
-export HPC_COMPILER="clang/12.0.5"
-export HPC_MPI="mpich/3.3.2"
-export HPC_PYTHON="python/3.9.6"
+export HPC_COMPILER="clang/14.0.0"
+export HPC_MPI="openmpi/4.0.7"
+#export HPC_MPI="mpich/3.3.2"
+export HPC_PYTHON="python/3.9.15"
 
 # Build options
 export USE_SUDO=N
 export PKGDIR=pkg
 export LOGDIR=log
 export OVERWRITE=N
-export NTHREADS=6
+export NTHREADS=16
 export   MAKE_CHECK=N
 export MAKE_VERBOSE=N
 export   MAKE_CLEAN=N
